@@ -1,0 +1,25 @@
+{
+  "name": "awesome-detector",
+  "version": "1.0.0",
+  "description": "Detects everthing and calls the cops.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js",
+    "tunnel": "lt --port 3000 --subdomain nigelfrnds"
+  },
+  "keywords": [
+    "Node",
+    "Express",
+    "Arduino"
+  ],
+  "author": "Nigel Fernandes",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "localtunnel": "^1.8.3",
+    "morgan": "^1.9.0",
+    "nodemon": "^1.17.2"
+  }
+}
